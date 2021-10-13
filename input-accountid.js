@@ -8,3 +8,6 @@ class InputAccountID extends InputWithValidator {
 }
 
 customElements.define("input-accountid", InputAccountID);
+
+export { InputAccountID };
+
