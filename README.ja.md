@@ -1,15 +1,19 @@
 # input-accountid
-A custom HTML input element that validates account IDs. Account IDs can contain A-Z, a-z, 0-9, -, _, and .
 
-## Demo
+A-Z、a-z、0-9、-、_、.の文字からなるアカウントIDを入力するためのWebコンポーネントです。
+
+## デモ
+
 https://code4fukui.github.io/input-accountid/
 
-## Features
-- Restricts input to valid account ID characters
-- Normalizes full-width characters to half-width
-- Customizable max length
+## 機能
 
-## Usage
+- アカウントIDフォーマットのバリデーション
+- 全角文字を半角に変換
+- maxlengthによる入力長の制限
+
+## 使い方
+
 ```html
 <script type="module" src="https://code4fukui.github.io/input-accountid/input-accountid.js"></script>
 <input-accountid id=inp maxlength=5></input-accountid>
@@ -23,5 +27,6 @@ onload = () => {
 </script>
 ```
 
-## License
+## ライセンス
+
 MIT
