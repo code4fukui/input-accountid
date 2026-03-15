@@ -1,4 +1,7 @@
 # input-accountid
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A custom HTML input element that validates account IDs. Account IDs can contain A-Z, a-z, 0-9, -, _, and .
 
 ## Demo
